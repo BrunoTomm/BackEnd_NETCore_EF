@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using AutoMapper;
 using BackEnd_NETCore.Application.Interfaces;
 using BackEnd_NETCore.Application.ViewModels;
 using BackEnd_NETCore.Domain.Entities;
@@ -10,29 +11,33 @@ namespace BackEnd_NETCore.Application.Services
 {
     public class UsuarioService : IUsuarioService
     {
-        private readonly IUsuarioRepositorio usuarioRepositorio;
-        public UsuarioService(IUsuarioRepositorio usuarioRepositorio)
+        private readonly IUsuarioRepositorio _usuarioRepositorio;
+        private readonly IMapper _mapper;
+        public UsuarioService(IUsuarioRepositorio usuarioRepositorio, IMapper mapper)
         {
-            this.usuarioRepositorio = usuarioRepositorio;
+            this._usuarioRepositorio = usuarioRepositorio;
+            this._mapper = mapper;
         }
 
         public List<UsuarioViewModel> Get()
         {
             List<UsuarioViewModel> usuarioViewModels = new List<UsuarioViewModel>();
 
-            IEnumerable<Usuario> usuarios = this.usuarioRepositorio.ListarTodos();
+            IEnumerable<Usuario> usuarios = this._usuarioRepositorio.ListarTodos();
 
-            foreach (var usuario in usuarios)
-            {
-                usuarioViewModels.Add(new UsuarioViewModel()
-                {
-                    Id = usuario.Id,
-                    Email = usuario.Email,
-                    Nome = usuario.Nome
-                });
-            }
+            usuarioViewModels = _mapper.Map<List<UsuarioViewModel>>(usuarios); //AutoMapper de uma lista
 
             return usuarioViewModels;
         }
+
+        public bool Post(UsuarioViewModel usuarioViewModel)
+        {
+            Usuario usuario = _mapper.Map<Usuario>(usuarioViewModel);
+
+            this._usuarioRepositorio.Create(usuario);
+
+            return true;
+        }
+
     }
 }

@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace BackEnd_NETCore.Domain.Interfaces
 {
-    public interface IUsuarioRepositorio
+    public interface IUsuarioRepositorio : IRepositorio<Usuario>
     {
         IEnumerable<Usuario> ListarTodos();
+
     }
 }

@@ -31,7 +31,10 @@ namespace BackEnd_NETCore.Data.Context
         {
             modelBuilder.ApplyConfiguration(new UsuarioMap());
 
+            #region Extensions
+            modelBuilder.ApllyGlobalConfigurations();
             modelBuilder.SeeData();
+            #endregion
 
             base.OnModelCreating(modelBuilder);
         }

@@ -88,3 +88,5 @@ C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEn
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore\bin\Debug\net6.0\BackEnd_NETCore.IoC.pdb
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore\bin\Debug\net6.0\BackEnd_NETCore.Application.pdb
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore\bin\Debug\net6.0\BackEnd_NETCore.Domain.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

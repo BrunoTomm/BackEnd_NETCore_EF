@@ -1,3 +1,4 @@
+using BackEnd_NETCore.Application.AutoMapper;
 using BackEnd_NETCore.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -8,9 +9,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 NativeInjector.RegistrarServicos(builder.Services);
-
 builder.Services.AddDbContext<TemplateContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("BackEnd_NETCore")).EnableSensitiveDataLogging());
-
+builder.Services.AddAutoMapper(typeof(AutoMapperSetup));
 
 
 builder.Services.AddControllers();
