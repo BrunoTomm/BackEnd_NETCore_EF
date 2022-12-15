@@ -16,7 +16,10 @@ namespace BackEnd_NETCore.Data.Extensions
                     {
                         Id = Guid.Parse("309b7c99-ff3d-4338-859f-d1a6b5857ce4"),
                         Nome = "Usuario Default",
-                        Email = "usuarioDefault@template.com"
+                        Email = "usuarioDefault@template.com",
+                        DateCreated = new DateTime(2020,2,2),
+                        IsDeleted = false,
+                        DateUpdate = null
                     }
                 );
 

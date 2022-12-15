@@ -1247,6 +1247,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "BackEnd_NETCore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
         },
@@ -1291,6 +1292,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "BackEnd_NETCore.Application": "1.0.0",
+          "BackEnd_NETCore.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "compile": {

@@ -23,4 +23,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BackEnd_NETCore.Domain\BackEnd_NETCore.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

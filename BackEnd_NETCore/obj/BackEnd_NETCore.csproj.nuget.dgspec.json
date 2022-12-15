@@ -31,7 +31,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Domain\\BackEnd_NETCore.Domain.csproj": {
+                "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Domain\\BackEnd_NETCore.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -281,6 +285,9 @@
             "projectReferences": {
               "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Application\\BackEnd_NETCore.Application.csproj": {
                 "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Application\\BackEnd_NETCore.Application.csproj"
+              },
+              "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Data\\BackEnd_NETCore.Data.csproj": {
+                "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Data\\BackEnd_NETCore.Data.csproj"
               }
             }
           }

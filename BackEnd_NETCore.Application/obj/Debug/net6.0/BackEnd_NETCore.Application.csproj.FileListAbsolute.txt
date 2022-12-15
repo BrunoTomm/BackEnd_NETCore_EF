@@ -12,3 +12,6 @@ C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEn
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\obj\Debug\net6.0\BackEnd_NETCore.Application.pdb
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\obj\Debug\net6.0\BackEnd_NETCore.Application.genruntimeconfig.cache
 C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\obj\Debug\net6.0\ref\BackEnd_NETCore.Application.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\bin\Debug\net6.0\BackEnd_NETCore.Domain.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\bin\Debug\net6.0\BackEnd_NETCore.Domain.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Application\obj\Debug\net6.0\BackEnd_NETCore.Application.csproj.CopyComplete

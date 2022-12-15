@@ -9,6 +9,7 @@
       "BackEnd_NETCore.IoC/1.0.0": {
         "dependencies": {
           "BackEnd_NETCore.Application": "1.0.0",
+          "BackEnd_NETCore.Data": "1.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
@@ -613,11 +614,31 @@
       },
       "BackEnd_NETCore.Application/1.0.0": {
         "dependencies": {
+          "BackEnd_NETCore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
         },
         "runtime": {
           "BackEnd_NETCore.Application.dll": {}
+        }
+      },
+      "BackEnd_NETCore.Data/1.0.0": {
+        "dependencies": {
+          "BackEnd_NETCore.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
+        },
+        "runtime": {
+          "BackEnd_NETCore.Data.dll": {}
+        }
+      },
+      "BackEnd_NETCore.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
+        },
+        "runtime": {
+          "BackEnd_NETCore.Domain.dll": {}
         }
       }
     }
@@ -1063,6 +1084,16 @@
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
     },
     "BackEnd_NETCore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BackEnd_NETCore.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BackEnd_NETCore.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -28,9 +28,18 @@ namespace BackEndNETCore.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime?>("DateUpdate")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Nome")
                         .IsRequired()
@@ -45,7 +54,9 @@ namespace BackEndNETCore.Data.Migrations
                         new
                         {
                             Id = new Guid("309b7c99-ff3d-4338-859f-d1a6b5857ce4"),
+                            DateCreated = new DateTime(2020, 2, 2, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "usuarioDefault@template.com",
+                            IsDeleted = false,
                             Nome = "Usuario Default"
                         });
                 });

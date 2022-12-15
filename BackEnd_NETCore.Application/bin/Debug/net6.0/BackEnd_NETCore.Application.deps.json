@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BackEnd_NETCore.Application/1.0.0": {
         "dependencies": {
+          "BackEnd_NETCore.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.Design": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
@@ -699,6 +700,15 @@
             "fileVersion": "5.0.20.51904"
           }
         }
+      },
+      "BackEnd_NETCore.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
+        },
+        "runtime": {
+          "BackEnd_NETCore.Domain.dll": {}
+        }
       }
     }
   },
@@ -1183,6 +1193,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "BackEnd_NETCore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

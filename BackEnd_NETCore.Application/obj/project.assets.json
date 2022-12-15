@@ -1155,6 +1155,20 @@
             "rid": "win"
           }
         }
+      },
+      "BackEnd_NETCore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BackEnd_NETCore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackEnd_NETCore.Domain.dll": {}
+        }
       }
     }
   },
@@ -3500,10 +3514,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "BackEnd_NETCore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BackEnd_NETCore.Domain/BackEnd_NETCore.Domain.csproj",
+      "msbuildProject": "../BackEnd_NETCore.Domain/BackEnd_NETCore.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BackEnd_NETCore.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.1",
@@ -3541,7 +3561,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Domain\\BackEnd_NETCore.Domain.csproj": {
+              "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Domain\\BackEnd_NETCore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
