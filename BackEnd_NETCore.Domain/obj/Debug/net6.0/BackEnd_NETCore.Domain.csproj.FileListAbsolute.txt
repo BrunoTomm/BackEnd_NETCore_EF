@@ -1,0 +1,14 @@
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\bin\Debug\net6.0\BackEnd_NETCore.Domain.deps.json
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\bin\Debug\net6.0\BackEnd_NETCore.Domain.runtimeconfig.json
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\bin\Debug\net6.0\BackEnd_NETCore.Domain.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\bin\Debug\net6.0\BackEnd_NETCore.Domain.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.AssemblyInfoInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.AssemblyInfo.cs
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\refint\BackEnd_NETCore.Domain.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\BackEnd_NETCore.Domain.genruntimeconfig.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Domain\obj\Debug\net6.0\ref\BackEnd_NETCore.Domain.dll

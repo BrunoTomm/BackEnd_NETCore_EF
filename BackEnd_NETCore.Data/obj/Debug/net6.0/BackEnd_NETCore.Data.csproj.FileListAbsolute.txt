@@ -1,0 +1,17 @@
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Data.deps.json
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Data.runtimeconfig.json
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Data.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Data.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Domain.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\bin\Debug\net6.0\BackEnd_NETCore.Domain.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.AssemblyInfoInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.AssemblyInfo.cs
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.csproj.CopyComplete
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\refint\BackEnd_NETCore.Data.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\BackEnd_NETCore.Data.genruntimeconfig.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.Data\obj\Debug\net6.0\ref\BackEnd_NETCore.Data.dll

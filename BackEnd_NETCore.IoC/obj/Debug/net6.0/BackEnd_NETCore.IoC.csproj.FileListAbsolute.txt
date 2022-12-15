@@ -1,0 +1,15 @@
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\bin\Debug\net6.0\BackEnd_NETCore.IoC.deps.json
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\bin\Debug\net6.0\BackEnd_NETCore.IoC.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\bin\Debug\net6.0\BackEnd_NETCore.IoC.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\bin\Debug\net6.0\BackEnd_NETCore.Application.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\bin\Debug\net6.0\BackEnd_NETCore.Application.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.csproj.AssemblyReference.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.AssemblyInfoInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.AssemblyInfo.cs
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.csproj.CoreCompileInputs.cache
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.csproj.CopyComplete
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\refint\BackEnd_NETCore.IoC.dll
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\BackEnd_NETCore.IoC.pdb
+C:\Users\bruno\OneDrive\Área de Trabalho\BackEnd_NETCore\BackEnd_NETCore\BackEnd_NETCore.IoC\obj\Debug\net6.0\ref\BackEnd_NETCore.IoC.dll
