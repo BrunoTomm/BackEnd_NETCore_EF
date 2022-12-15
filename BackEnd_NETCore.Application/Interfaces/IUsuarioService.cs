@@ -9,5 +9,8 @@ namespace BackEnd_NETCore.Application.Interfaces
     {
         List<UsuarioViewModel> Get();
         bool Post(UsuarioViewModel usuarioViewModel);
+        UsuarioViewModel GetById(string id);
+        bool Put(UsuarioViewModel usuarioViewModel);
+        bool Delete(string id);
     }
 }

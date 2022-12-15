@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore", "BackEnd_NETCore\BackEnd_NETCore.csproj", "{214B2438-90F7-4F44-A280-54A0A3822E10}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd_NETCore", "BackEnd_NETCore\BackEnd_NETCore.csproj", "{214B2438-90F7-4F44-A280-54A0A3822E10}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web", "1-Web", "{4C01E88D-3DF0-426D-9566-C40A6424079F}"
 EndProject
@@ -13,17 +13,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Domain", "3-Domain", "{98
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Infra", "4-Infra", "{059892FB-E524-4A7B-8E97-6692147D7926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore.Application", "BackEnd_NETCore.Application\BackEnd_NETCore.Application.csproj", "{F8947035-E4EE-4A2C-8BF7-789F25187BF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd_NETCore.Application", "BackEnd_NETCore.Application\BackEnd_NETCore.Application.csproj", "{F8947035-E4EE-4A2C-8BF7-789F25187BF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore.Domain", "BackEnd_NETCore.Domain\BackEnd_NETCore.Domain.csproj", "{550CD03F-1FBC-439E-B401-67EC5A939740}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd_NETCore.Domain", "BackEnd_NETCore.Domain\BackEnd_NETCore.Domain.csproj", "{550CD03F-1FBC-439E-B401-67EC5A939740}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1-Data", "4.1-Data", "{982C3009-DEF7-420B-AAEF-E3112AA70585}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2-CrossCutting", "4.2-CrossCutting", "{A2603474-D977-478F-BEC5-7A0AFC7A5CE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore.Data", "BackEnd_NETCore.Data\BackEnd_NETCore.Data.csproj", "{0C50E9A5-9991-4527-85B6-2BC7075B1D66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd_NETCore.Data", "BackEnd_NETCore.Data\BackEnd_NETCore.Data.csproj", "{0C50E9A5-9991-4527-85B6-2BC7075B1D66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore.IoC", "BackEnd_NETCore.IoC\BackEnd_NETCore.IoC.csproj", "{935959E0-FD93-4FC3-870D-4340040697FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackEnd_NETCore.IoC", "BackEnd_NETCore.IoC\BackEnd_NETCore.IoC.csproj", "{935959E0-FD93-4FC3-870D-4340040697FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-Tests", "0-Tests", "{D29D07AD-6008-4769-B488-C69B04DA625F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEnd_NETCore.Tests", "BackEnd_NETCore.Tests\BackEnd_NETCore.Tests.csproj", "{1076F29B-4FEC-4406-99E4-5F6AEEE8C091}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,10 @@ Global
 		{935959E0-FD93-4FC3-870D-4340040697FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{935959E0-FD93-4FC3-870D-4340040697FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{935959E0-FD93-4FC3-870D-4340040697FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1076F29B-4FEC-4406-99E4-5F6AEEE8C091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1076F29B-4FEC-4406-99E4-5F6AEEE8C091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1076F29B-4FEC-4406-99E4-5F6AEEE8C091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1076F29B-4FEC-4406-99E4-5F6AEEE8C091}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,6 +71,7 @@ Global
 		{A2603474-D977-478F-BEC5-7A0AFC7A5CE1} = {059892FB-E524-4A7B-8E97-6692147D7926}
 		{0C50E9A5-9991-4527-85B6-2BC7075B1D66} = {982C3009-DEF7-420B-AAEF-E3112AA70585}
 		{935959E0-FD93-4FC3-870D-4340040697FC} = {A2603474-D977-478F-BEC5-7A0AFC7A5CE1}
+		{1076F29B-4FEC-4406-99E4-5F6AEEE8C091} = {D29D07AD-6008-4769-B488-C69B04DA625F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2C92DF04-F98E-4696-B4ED-FA6788C2D8D5}
