@@ -64,7 +64,9 @@ namespace BackEnd_NETCore.Application.Services
             if (usuarioViewModel.Id == Guid.Empty)
                 throw new Exception("Usuario Id não é válido");
 
-            Usuario usuario = this._usuarioRepositorio.Find(x => x.Id == usuarioViewModel.Id && !x.IsDeleted);
+            Guid.TryParse(usuarioViewModel.Id.ToString(), out Guid usuarioViewModelId);
+
+            Usuario usuario = this._usuarioRepositorio.Find(x => x.Id == usuarioViewModelId && !x.IsDeleted);
 
             if (usuario == null)
                 throw new Exception("Usuario não encontrado");
@@ -86,7 +88,10 @@ namespace BackEnd_NETCore.Application.Services
             if (usuario == null)
                 throw new Exception("Usuario não encontrado");
 
-            return this._usuarioRepositorio.Delete(usuario);
+           this._usuarioRepositorio.Delete(usuario);
+
+           return true;
+
         }
 
     }

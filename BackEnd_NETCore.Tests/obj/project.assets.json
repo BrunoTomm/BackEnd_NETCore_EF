@@ -2646,6 +2646,21 @@
           "bin/placeholder/BackEnd_NETCore.Application.dll": {}
         }
       },
+      "BackEnd_NETCore.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BackEnd_NETCore.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.1",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1"
+        },
+        "compile": {
+          "bin/placeholder/BackEnd_NETCore.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BackEnd_NETCore.Data.dll": {}
+        }
+      },
       "BackEnd_NETCore.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -7993,6 +8008,11 @@
       "path": "../BackEnd_NETCore.Application/BackEnd_NETCore.Application.csproj",
       "msbuildProject": "../BackEnd_NETCore.Application/BackEnd_NETCore.Application.csproj"
     },
+    "BackEnd_NETCore.Data/1.0.0": {
+      "type": "project",
+      "path": "../BackEnd_NETCore.Data/BackEnd_NETCore.Data.csproj",
+      "msbuildProject": "../BackEnd_NETCore.Data/BackEnd_NETCore.Data.csproj"
+    },
     "BackEnd_NETCore.Domain/1.0.0": {
       "type": "project",
       "path": "../BackEnd_NETCore.Domain/BackEnd_NETCore.Domain.csproj",
@@ -8002,6 +8022,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BackEnd_NETCore.Application >= 1.0.0",
+      "BackEnd_NETCore.Data >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.4.0",
       "Moq >= 4.18.3",
       "xunit >= 2.4.2",
@@ -8045,6 +8066,9 @@
           "projectReferences": {
             "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Application\\BackEnd_NETCore.Application.csproj": {
               "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Application\\BackEnd_NETCore.Application.csproj"
+            },
+            "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Data\\BackEnd_NETCore.Data.csproj": {
+              "projectPath": "C:\\Users\\bruno\\OneDrive\\Área de Trabalho\\BackEnd_NETCore\\BackEnd_NETCore\\BackEnd_NETCore.Data\\BackEnd_NETCore.Data.csproj"
             }
           }
         }

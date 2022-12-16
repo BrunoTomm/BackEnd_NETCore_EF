@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BackEnd_NETCore.Application\BackEnd_NETCore.Application.csproj" />
+    <ProjectReference Include="..\BackEnd_NETCore.Data\BackEnd_NETCore.Data.csproj" />
   </ItemGroup>
 
 </Project>
